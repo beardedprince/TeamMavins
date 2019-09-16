@@ -73,7 +73,8 @@ border-radius: 5px;
 padding: 7px;
 width: 75%;
 margin: 10px 40px;
-box-sizing: border-box
+box-sizing: border-box;
+color:white;
 }
 
 input[type=submit]{
