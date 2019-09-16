@@ -43,8 +43,9 @@ form{
     border-radius: 10px;
     opacity: 0.8;
     width: 350px;
-    height: 350px;
+   
     padding-top: 10px;
+    paddint-bottom: 10px;
 }
 
 form p{
