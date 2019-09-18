@@ -76,9 +76,13 @@ if (isset($_POST['submit']))
 	if ($count_check == 1){
 		//register $firstname, $lastname, $email and redirect to file dashboard page"
 		session_start();
+		$_SESSION['user_id'] = $row["id"];
+
+		
 		$_SESSION['firstname'] = $row['firstname'];
 		$_SESSION['lastname'] = $row["lastname"];
 		$_SESSION['email'] = $row["email"];
+
 		//once updated, redirect back to the view page
 		header("Location:dashboard.php");		
 		exit;
